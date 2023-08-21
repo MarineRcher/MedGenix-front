@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    padding-left: 0vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #171A26;
+    color: aliceblue;
+    width: 25vh;
+    height: 100vh;
+}
+
+.logo{
+    width: 30%;
+    margin-left: 8vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+
+.ImgItem{
+width: 3vh;
+margin-right: 2vh;
+}
+
+.item {
+    padding-top: 2vh;
+    margin-right: 1vh;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    margin-left: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+
