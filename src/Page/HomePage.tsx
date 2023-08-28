@@ -2,7 +2,6 @@
 import styles from './../styles/Page/HomePage.module.css';
 import NavHomePage from "../Component/NavHomePage";
 import { Link } from 'react-router-dom';
-import { CalendarComponent } from '@syncfusion/ej2-react-calendars';
 
 function HomePage() {
   return (
@@ -21,7 +20,7 @@ function HomePage() {
           </div>
           <div className={styles.calendar}>
             CALENDRIER
-            return <CalendarComponent id="calendar" />;
+          
           </div>
         </div>
         <div className={styles.containerActivityTeamTask}>

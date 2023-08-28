@@ -10,8 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@syncfusion/ej2-react-calendars": "^22.2.9",
+    "@types/react-calendar": "^4.1.0",
     "react": "^18.2.0",
+    "react-calendar": "^4.6.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0"
   },
