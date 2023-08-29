@@ -1,6 +1,7 @@
 // Importez les styles nécessaires
 import styles from './../styles/Page/HomePage.module.css';
 import NavHomePage from "../Component/NavHomePage";
+import Calendar from './../Component/Calendar/calendar';
 import { Link } from 'react-router-dom';
 
 function HomePage() {
@@ -20,7 +21,7 @@ function HomePage() {
           </div>
           <div className={styles.calendar}>
             CALENDRIER
-          
+          <Calendar />
           </div>
         </div>
         <div className={styles.containerActivityTeamTask}>
