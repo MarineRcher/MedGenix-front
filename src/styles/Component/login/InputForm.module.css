@@ -1,0 +1,14 @@
+
+
+input {
+    width: 85%;
+    padding: 1.2rem;
+    border-radius: 9px;
+    border: none;
+    height: 1vh;
+}
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(253, 242, 233, 0.5);
+  }
+

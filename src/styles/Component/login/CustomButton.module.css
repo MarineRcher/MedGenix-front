@@ -1,0 +1,19 @@
+button{
+    background-color: #f48982;
+    color: #fdf2e9;
+    align-self: end;
+    outline: 1px solid #f48982;
+   
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 9px;
+  border: none;
+  width: 98%;
+  height: auto;
+  padding: 1.2rem;
+cursor: pointer;
+  font-family: inherit;
+ 
+}

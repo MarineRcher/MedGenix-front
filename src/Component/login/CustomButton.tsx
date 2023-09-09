@@ -1,0 +1,17 @@
+import styles from '../../styles/Component/login/CustomButton.module.css';
+
+export interface text {
+    Text: string;
+}
+
+const CustomButton: React.FC<text> = ({Text}) => {
+        return (
+            <>
+              <button type="submit" className={styles.submit}>
+            {Text}
+          </button>
+            </>
+        )
+}
+
+export default CustomButton;
