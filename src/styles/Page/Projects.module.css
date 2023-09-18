@@ -1,0 +1,55 @@
+.containerProjectPage{
+    display: flex;
+    flex-direction: row;
+}
+
+.containerImgTasks{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+.photo{
+display:flex;
+justify-content: center;
+margin: 3vh;
+width: 90%;
+height: 40%;
+}
+
+.imgProject{
+    width: 90%;
+
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerTasks{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  
+
+}
+
+.containerTask{
+    display: flex;
+    background-color: #E4FFC6;
+    flex-direction: column;
+    width: 40vh;
+    height: 100%;
+  flex-wrap: wrap;
+    margin-bottom: 3vh ;
+    margin-right: 3vh;
+    justify-content: left;
+    border-radius: 7px;
+}
+
+.task {
+    margin: 3vh;
+}

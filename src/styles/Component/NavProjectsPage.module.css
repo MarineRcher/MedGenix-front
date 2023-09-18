@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navs {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+.navProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    background-color: #171A26 ;
+    opacity: 0.9;
+    padding: 2vh;
+    padding-top: 2vh;
+    font-size: larger;
+}
+
+h1{
+    display: flex;
+    justify-content: left;
+    padding: 0;
+}

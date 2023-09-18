@@ -14,8 +14,8 @@ function NavHomePage() {
       <>
       <div className={styles.nav}>
         <img className={styles.logo} src={Logo} /> 
-        <Link to="/" className={styles.item}> <img className={styles.ImgItem} src={Account}/>  MON COMPTE</Link>
-        <Link to="/" className={styles.item}> <img className={styles.ImgItem} src={Project}/>  PROJETS</Link>
+        <Link to="/signUp" className={styles.item}> <img className={styles.ImgItem} src={Account}/>  MON COMPTE</Link>
+        <Link to="/projects" className={styles.item}> <img className={styles.ImgItem} src={Project}/>  PROJETS</Link>
         <Link to="/" className={styles.item}><img className={styles.ImgItem} src={Calendar}/>  CALENDRIER</Link>
         <Link to="/" className={styles.item}> <img className={styles.ImgItem} src={Chat}/>  CHAT</Link>
       </div>
