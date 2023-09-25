@@ -16,18 +16,19 @@ function Projects() {
                 <div className={styles.containerTasks}>
                 <h1>A Faire</h1>
                     <div className={styles.containerTask}>
-                      <p className={styles.task}>Faire ca aggjs
-                      dfhadsfk a</p> 
+                      <p className={styles.task}>Faire ca </p> 
                     </div>
                 </div>
                 <div className={styles.containerTasks}>
                 <h1>En cours</h1>
                     <div className={styles.containerTask}>
+                    <p className={styles.task}>Faire ca </p> 
                     </div>
                 </div>
                 <div className={styles.containerTasks}>
                 <h1>Terminee</h1>
                     <div className={styles.containerTask}>
+                    <p className={styles.task}>Faire ca </p> 
                     </div>
                 </div>           
             </div>

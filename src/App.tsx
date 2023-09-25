@@ -6,6 +6,7 @@ import HomePage from './Page/HomePage'
 import SignIn from './Page/SignIn';
 import SignUp from './Page/SignUp';
 import Projects from './Page/Projects';
+import AddProject from './Page/AddProject';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signIn" element={<SignIn />} />
         <Route path="/signUp" element={<SignUp />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/addProject' element={<AddProject />} />
       </Routes>
     </>
   )
