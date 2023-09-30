@@ -12,8 +12,6 @@ function NavProjectPage() {
         <Link to="/addProject" className={styles.item}>Ajouter un projet</Link>
         <Link to="/project1" className={styles.item}><h1>Projet 1</h1></Link>
         <Link to="/projects" className={styles.item}>Documents</Link>
-        <Link to="/" className={styles.item}>Calendrier</Link>
-        <Link to="/" className={styles.item}>Chat</Link>
         </div>
       </div>
         </>

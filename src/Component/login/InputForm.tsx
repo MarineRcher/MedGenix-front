@@ -2,16 +2,19 @@ import React from 'react';
 import styles from '../../styles/Component/login/InputForm.module.css';
 
 interface InputFormProps {
+  id: string;
+  type: string;
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   placeholder: string;
 }
 
-const InputForm: React.FC<InputFormProps> = ({ value, onChange, placeholder }) => {
+const InputForm: React.FC<InputFormProps> = ({ id, type, value, onChange, placeholder }) => {
   return (
     <div className={styles.container}>
     <input
-      type="text"
+        id={id}
+      type={type}
       value={value}
       onChange={onChange}
       placeholder={placeholder}
