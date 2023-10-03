@@ -1,4 +1,5 @@
 import styles from '../../styles/Component/login/CustomButton.module.css';
+import React from "react";
 
 export interface text {
     Text: string;

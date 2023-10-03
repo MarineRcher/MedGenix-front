@@ -18,6 +18,7 @@ const InputForm: React.FC<InputFormProps> = ({ id, type, value, onChange, placeh
       value={value}
       onChange={onChange}
       placeholder={placeholder}
+        autoComplete="off"
     />
     </div>
   );
